@@ -39,11 +39,21 @@ header{
     padding: 50px;
 }
 
+.container-full{
+    max-width: 100%;
+    margin: 0;
+}
+
 .row{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.row-full{
+    width: 100%;
+    display: flex;
 }
 
 .content{
@@ -66,6 +76,10 @@ header{
 
 .col-33{
     width: calc(100% / 3 - 20px);
+}
+
+.col-33-full{
+    width: 33%;
 }
 
 .bg-skyblue{
