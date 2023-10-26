@@ -82,6 +82,14 @@ header{
     width: 33%;
 }
 
+.col-20{
+    width: calc(100% / 5 - 20px);
+}
+
 .bg-skyblue{
     background-color: lightskyblue;
+}
+
+.bg-black{
+    background-color: black;
 }
