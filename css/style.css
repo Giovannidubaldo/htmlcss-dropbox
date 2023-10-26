@@ -99,31 +99,68 @@ header{
     display: flex;
 }
 
-h1{
-    font-size: 50px;
+.text-center{
     text-align: center;
+}
+
+h1{
+    font-size: 60px;
     padding: 30px;
 } 
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    padding: 10px;
+}
+
+h5{
+    font-size: 20px;
+}
+
 p{
     font-size: 20px;
+    padding: 10px;
 }
 
 .button-blue{
     background-color: blue;
     color: white;
-    margin-top: 20px;
     padding: 10px;
     border: none;
-    margin-bottom: 20px;
+}
+
+.button-col-33{
+    text-align: center;
 }
 
 img{
     max-width: 100%;
 }
 
-.freccia{
+.margin-top{
     margin-top: 20px;
-    margin-bottom: 0;
+}
+
+.freccia{
     font-size: 50px;
+}
+
+.radio{
+    margin-left: 10px;
+}
+
+.border{
+    border: 1px solid grey;
+}
+
+ul{
+    padding: 30px;
+}
+
+li{
+    padding: 10px;
 }
