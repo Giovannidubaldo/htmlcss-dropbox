@@ -7,9 +7,9 @@
 /* HEADER */
 header{
     background-color: white;
+    width: 100%;
     position: fixed;
     z-index: 1;
-    width: 100%;
     padding: 10px;
 }
 
@@ -60,6 +60,7 @@ header{
     height: 200px;
     background-color: red;
     border: 1px solid black;
+    display: flex;
 }
 
 .col-100{
@@ -92,4 +93,37 @@ header{
 
 .bg-black{
     background-color: black;
+}
+
+.d-flex{
+    display: flex;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+} 
+
+p{
+    font-size: 20px;
+}
+
+.button-blue{
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.freccia{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 50px;
 }
