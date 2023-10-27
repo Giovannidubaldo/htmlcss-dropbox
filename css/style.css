@@ -31,6 +31,22 @@ li{
     background-color: black;
 }
 
+.bg-lightgreen{
+    background-color: rgba(144, 238, 144, 0.784);
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-blue{
+    background-color: rgb(0, 140, 255);
+}
+
+.bg-red{
+    background-color: red;
+}
+
 .d-flex{
     display: flex;
 }
@@ -39,6 +55,9 @@ li{
     text-align: center;
 }
 
+.padding-20{
+    padding: 20px;
+}
 .margin-left-10{
     margin-left: 10px;
 }
@@ -129,6 +148,19 @@ header{
 .square{
     width: 50%;
     height: calc(100vw / 6);
+    position: relative; 
+}
+
+.img-university{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.filter{
+    filter: invert();
 }
 
 /* COLUMN */
