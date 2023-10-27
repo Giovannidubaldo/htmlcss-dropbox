@@ -5,10 +5,62 @@
 }
 
 /* UTILITY */
+
 .hr-width{
     width: 20%;
 }
+
+.border{
+    border: 1px solid grey;
+}
+
+li{
+    padding: 10px;
+    color: gray;
+}
+
+.color-grey{
+    color: grey;
+}
+
+.bg-skyblue{
+    background-color: lightskyblue;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.margin-left-10{
+    margin-left: 10px;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+
+.margin-top-30{
+    margin-top: 30px;
+}
+
+.margin-top-50{
+    margin-top: 50px;
+}
+
+/* .height-500{
+    height: 500px;
+} */
+
 /* HEADER */
+
 header{
     background-color: white;
     width: 100%;
@@ -72,6 +124,19 @@ header{
     margin: 10px;
 }
 
+.squares-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
+}
+
+/* COLUMN */
+
 .col-100{
     width: calc(100% - 20px);
 }
@@ -96,21 +161,7 @@ header{
     width: calc(100% / 5 - 20px);
 }
 
-.bg-skyblue{
-    background-color: lightskyblue;
-}
-
-.bg-black{
-    background-color: black;
-}
-
-.d-flex{
-    display: flex;
-}
-
-.text-center{
-    text-align: center;
-}
+/* TEXT-FONT */
 
 h1{
     font-size: 60px;
@@ -135,6 +186,12 @@ p{
     padding: 10px;
 }
 
+.freccia{
+    font-size: 50px;
+}
+
+/* ANIMATION */
+
 .button-blue{
     background-color: blue;
     color: white;
@@ -142,45 +199,14 @@ p{
     border: none;
 }
 
-.button-col-33{
-    text-align: center;
+.button-grey{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    color: gray;
 }
+
 
 img{
     max-width: 100%;
-}
-
-.margin-top{
-    margin-top: 20px;
-}
-
-.freccia{
-    font-size: 50px;
-}
-
-.radio{
-    margin-left: 10px;
-}
-
-.border{
-    border: 1px solid grey;
-}
-
-ul{
-    padding: 30px;
-}
-
-li{
-    padding: 10px;
-}
-
-.squares-content{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.square{
-    width: 50%;
-    height: calc(100vw / 6);
 }
