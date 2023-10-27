@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* UTILITY */
+.hr-width{
+    width: 20%;
+}
 /* HEADER */
 header{
     background-color: white;
@@ -30,7 +34,7 @@ header{
 .container-1400{
     max-width: 1400px;
     margin: 0 auto;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .container-1200{
@@ -40,7 +44,7 @@ header{
 }
 
 .container-full{
-    max-width: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -63,6 +67,11 @@ header{
     display: flex;
 }
 
+.content-column{
+    padding: 20px;
+    margin: 10px;
+}
+
 .col-100{
     width: calc(100% - 20px);
 }
@@ -80,7 +89,7 @@ header{
 }
 
 .col-33-full{
-    width: 33%;
+    width: calc(100% / 3);
 }
 
 .col-20{
@@ -163,4 +172,15 @@ ul{
 
 li{
     padding: 10px;
+}
+
+.squares-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
 }
