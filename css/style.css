@@ -71,9 +71,14 @@ li{
     text-align: center;
 }
 
+.text-width-70{
+    width: 70%;
+}
+
 .padding-20{
     padding: 20px;
 }
+
 .margin-left-10{
     margin-left: 10px;
 }
@@ -90,7 +95,7 @@ li{
     margin-top: 50px;
 }
 
-.position-relative{
+.relative{
     position: relative;
 }
 
@@ -176,7 +181,7 @@ header{
 /* COLUMN */
 
 .col-100{
-    width: calc(100% - 20px);
+    width: calc(100% - 40px);
 }
 
 .col-60{
@@ -249,6 +254,12 @@ p{
     padding: 10px;
     border: none;
     color: gray;
+}
+
+.button-ufficio-vendite{
+    position: absolute;
+    top: 70px;
+    right: 20px;
 }
 
 img{
