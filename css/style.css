@@ -23,6 +23,10 @@ li{
     color: grey;
 }
 
+.color-brown{
+    color: rgb(87, 10, 10);
+}
+
 .bg-skyblue{
     background-color: lightskyblue;
 }
@@ -246,6 +250,12 @@ p{
     color: gray;
 }
 
+.button-white{
+    background-color: white;
+    padding: 10px;
+    border: none;
+    color: gray;
+}
 
 img{
     max-width: 100%;
