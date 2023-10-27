@@ -90,6 +90,10 @@ li{
     margin-top: 50px;
 }
 
+.position-relative{
+    position: relative;
+}
+
 /* HEADER */
 
 header{
@@ -117,7 +121,8 @@ header{
 .container-1400{
     max-width: 1400px;
     margin: 0 auto;
-    padding-top: 50px;
+    padding: 50px;
+    padding-bottom: 0;
 }
 
 .container-1200{
@@ -167,17 +172,6 @@ header{
     position: relative; 
 }
 
-.img-university{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-}
-
-.filter{
-    filter: invert();
-}
 
 /* COLUMN */
 
@@ -259,4 +253,20 @@ p{
 
 img{
     max-width: 100%;
+}
+
+.img-university{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.img-designit{
+    width: 50%;
+}
+
+.filter{
+    filter: invert();
 }
