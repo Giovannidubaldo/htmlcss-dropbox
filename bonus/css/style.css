@@ -317,6 +317,15 @@ img{
     filter: invert();
 }
 
+.hidden{
+    display: none;
+}
+
+.questions:hover .hidden{
+    display: block;
+    color: red;
+}
+
 /* FOOTER */
 
 footer{
