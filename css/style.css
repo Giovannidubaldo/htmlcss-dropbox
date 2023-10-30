@@ -111,6 +111,14 @@ li{
     justify-content: end;
 }
 
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
 /* HEADER */
 
 header{
