@@ -225,6 +225,14 @@ header{
     width: calc(60% - 20px);
 }
 
+.col-70{
+    width: calc(70% - 20px);
+}
+
+.col-30{
+    width: calc(30% - 20px);
+}
+
 .col-40{
     width: calc(40% - 20px);
 }
@@ -291,12 +299,6 @@ p{
     padding: 10px;
     border: none;
     color: gray;
-}
-
-.button-ufficio-vendite{
-    position: absolute;
-    top: 70px;
-    right: 20px;
 }
 
 img{
