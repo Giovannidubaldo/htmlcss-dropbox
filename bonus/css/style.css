@@ -287,11 +287,14 @@ p{
     color: gray;
 }
 
-.button-white{
-    background-color: white;
-    padding: 10px;
-    border: none;
-    color: gray;
+.button-blue:hover{
+    background-color: rgb(0, 132, 255);
+    border: blue;
+}
+
+.button-grey:hover{
+    background-color: gray;
+    color: white;
 }
 
 img{
