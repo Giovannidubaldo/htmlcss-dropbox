@@ -119,6 +119,10 @@ li{
     align-items: center;
 }
 
+#checkmark{
+    color: blue;
+}
+
 /* HEADER */
 
 header{
